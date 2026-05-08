@@ -467,6 +467,7 @@ def admin_deposit():
     conn.commit()
     new_bal = conn.execute("SELECT balance FROM users WHERE id=?", (uid,)).fetchone()["balance"]
     conn.close()
+    
     return jsonify({"success": True, "new_balance": new_bal})
 
 # ─────────────────────────────────────────────
