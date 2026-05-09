@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# v2.0 - updated design 2026-05-09
 """
 غولد ماستر - Gold Master Financial Server
 Flask + SQLite backend for the mobile banking app
